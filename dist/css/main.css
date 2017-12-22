@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow|Petit+Formal+Script");
+@import url("https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+  text-decoration: none;
+  list-style: none; }
+
+img {
+  max-width: 100%;
+  max-height: auto; }
+
+.link {
+  color: #32638d; }
+
+.bold {
+  font-weight: 700; }
+
+body {
+  background-color: white;
+  font-family: 'Barlow', sans-serif; }
+
+.content {
+  display: flex;
+  align-content: stretch; }
+
+header {
+  height: 70px;
+  position: relative; }
+  header .logo-area {
+    padding-top: 10px;
+    width: 100%; }
+    header .logo-area .logo {
+      font-family: 'Petit Formal Script', cursive;
+      color: #32638d;
+      text-align: center; }
+  header .search-area {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: inherit;
+    background-color: #f4f4f4;
+    padding: 30px 10px 0 10px; }
+    header .search-area input {
+      background-color: transparent;
+      border: none;
+      border-bottom: 2px solid #bebebe;
+      width: 180px;
+      margin: auto;
+      font-size: .90em;
+      outline: none; }
+
+.nav .nav-list {
+  display: flex; }
+  .nav .nav-list .list-item {
+    background-color: #15161d;
+    color: #a3a5a5;
+    width: 20%;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 1.5em;
+    cursor: pointer; }
+    .nav .nav-list .list-item:hover {
+      background-color: #32638d;
+      color: white; }
+
+.profile {
+  background-color: #f4f4f4;
+  padding: 20px;
+  width: 20%;
+  font-weight: 700; }
+  .profile .about {
+    text-align: center; }
+    .profile .about p {
+      margin-bottom: 20px;
+      text-align: left; }
+    .profile .about img {
+      width: 200px;
+      border-radius: 50%;
+      margin: auto; }
+    .profile .about #username {
+      margin-top: 10px; }
+    .profile .about #follow {
+      margin: 10px auto;
+      background-color: #3aab2a;
+      width: 90%;
+      height: 40px;
+      cursor: pointer;
+      border-radius: 3px;
+      border: none;
+      color: white;
+      font-size: .85em;
+      font-weight: 700; }
+  .profile .user-info {
+    margin: 20px 0;
+    font-weight: 700;
+    font-size: 1em; }
+    .profile .user-info li {
+      position: relative;
+      padding: 10px 0; }
+      .profile .user-info li i {
+        position: absolute;
+        right: 0; }
+  .profile .bio {
+    margin: 20px 0; }
+
+.image-area {
+  width: 60%;
+  padding: 20px; }
+  .image-area .controller {
+    display: flex;
+    justify-content: space-between; }
+    .image-area .controller .view-content li {
+      display: inline-block;
+      padding: 0 5px;
+      font-weight: 700; }
+    .image-area .controller .view-sizes li {
+      display: inline-block;
+      padding: 0 5px;
+      font-weight: 700; }
+
+.side-area {
+  background-color: #f4f4f4;
+  padding: 20px;
+  width: 20%; }
+  .side-area #suggestions .recommend li {
+    margin: 20px 0;
+    display: flex; }
+    .side-area #suggestions .recommend li img {
+      border-radius: 50%; }
+    .side-area #suggestions .recommend li .info {
+      padding-left: 10px; }
