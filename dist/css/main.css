@@ -135,3 +135,12 @@ header {
       height: 50px; }
     .side-area #suggestions .recommend li .info {
       padding-left: 10px; }
+  .side-area #trending .trend-imgs {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .side-area #trending .trend-imgs img {
+      width: 45%;
+      height: 50%;
+      margin: 5px auto; }
