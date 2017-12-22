@@ -1,0 +1,19 @@
+.nav {
+
+  .nav-list {
+    display: flex;
+    .list-item {
+      background-color: $black;
+      color: $gray;
+      width: 20%;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 1.5em;
+      cursor: pointer;
+      &:hover {
+        background-color: $blue;
+        color: $white;
+      }
+    }
+  }
+}

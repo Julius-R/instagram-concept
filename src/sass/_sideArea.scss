@@ -1,0 +1,22 @@
+.side-area {
+  background-color: $litegray;
+  padding: 20px;
+  width: 20%;
+
+  #suggestions {
+
+    .recommend {
+      li {
+        margin: 20px 0;
+        display: flex;
+        img {
+          border-radius: 50%;
+        }
+        .info {
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+
+}

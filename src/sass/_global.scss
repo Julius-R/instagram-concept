@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+  text-decoration: none;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.link {
+  color: $blue;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+body {
+  background-color: $white;
+  font-family: 'Barlow', sans-serif;
+}
+.content{
+  display: flex;
+  align-content: stretch;
+}

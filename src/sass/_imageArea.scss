@@ -1,0 +1,24 @@
+.image-area {
+  width: 60%;
+  padding: 20px;
+
+  .controller {
+    display: flex;
+    justify-content: space-between;
+
+    .view-content {
+      li {
+        display: inline-block;
+        padding: 0 5px;
+        font-weight: 700;
+      }
+    }
+    .view-sizes {
+      li {
+        display: inline-block;
+        padding: 0 5px;
+        font-weight: 700;
+      }
+    }
+  }
+}

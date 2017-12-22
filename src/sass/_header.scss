@@ -1,0 +1,31 @@
+header {
+  height: 70px;
+  position: relative;
+  .logo-area {
+    padding-top: 10px;
+    width: 100%;
+    .logo {
+      font-family: 'Petit Formal Script', cursive;
+      color: $blue;
+      text-align: center;
+    }
+  }
+  .search-area {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: inherit;
+    background-color: $litegray;
+    padding: 30px 10px 0 10px;
+    input {
+      background-color: transparent;
+      border: none;
+      border-bottom: 2px solid $darkgray;
+      width: 180px;
+      margin: auto;
+      font-size: .90em;
+      outline: none;
+    }
+  }
+}

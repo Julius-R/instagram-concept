@@ -1,0 +1,50 @@
+.profile {
+  background-color: $litegray;
+  padding: 20px;
+  width: 20%;
+  font-weight: 700;
+
+  .about {
+    text-align: center;
+    p {
+      margin-bottom: 20px;
+      text-align: left;
+    }
+    img {
+      width: 200px;
+      border-radius: 50%;
+      margin: auto;
+    }
+    #username {
+      margin-top: 10px;
+    }
+    #follow {
+      margin: 10px auto;
+      background-color: $green;
+      width: 90%;
+      height: 40px;
+      cursor: pointer;
+      border-radius: 3px;
+      border: none;
+      color: $white;
+      font-size: .85em;
+      font-weight: 700;
+    }
+  }
+  .user-info {
+    margin: 20px 0;
+    font-weight: 700;
+    font-size: 1em;
+    li {
+      position: relative;
+      padding: 10px 0;
+      i {
+        position: absolute;
+        right: 0;
+      }
+    }
+  }
+  .bio {
+    margin: 20px 0;
+  }
+}

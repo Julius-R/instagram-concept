@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="dist/css/main.css">
+</head>
+<body>
+
+    <header>
+      <div class="logo-area">
+        <h1 class="logo">Instagram</h1>
+      </div>
+      <div class="search-area">
+        <input type="text" name="search" placeholder="Search">
+      </div>
+    </header>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="list-item"><a href="">
+          <i class="fa fa-home" aria-hidden="true"></i><br>
+          Home
+        </a></li>
+        <li class="list-item"><a href="">
+          <i class="fa fa-search-plus" aria-hidden="true"></i><br>
+          Explore
+        </a></li>
+        <li class="list-item"><a href="">
+          <i class="fa fa-camera" aria-hidden="true"></i><br>
+          Upload
+        </a></li>
+        <li class="list-item"><a href="">
+          <i class="fa fa-users" aria-hidden="true"></i><br>
+          Following
+        </a></li>
+        <li class="list-item"><a href="">
+          <i class="fa fa-id-card-o" aria-hidden="true"></i><br>
+          Profile
+        </a></li>
+      </ul>
+    </nav>
+
+    <div class="content">
+      <aside class="profile">
+        <div class="about">
+          <p>About</p>
+          <img src="dist/imgs/profile-pic.jpg" alt="profile imgae of myself">
+          <div id="username"><strong>Julius Robinson</strong></div>
+          <div id="usertag"><a href="#" class="link"><strong>@dev_newbie</strong></a></div>
+          <button id="follow">Following</button>
+        </div>
+        <ul class="user-info">
+          <li id="post-count">153 Posts</li>
+          <li id="followers"><a href="#" class="link">249 Followers <i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
+          <li id="following"><a href="#" class="link">643 Following <i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
+        </ul>
+        <p class="bio">
+          “Though no one can go back and make a brand new start, anyone can start from now and make a brand new ending.” – Carl Bard
+        </p>
+        <div id="link-site">
+          <i class="fa fa-globe" aria-hidden="true"></i>
+          <a href="https://julius-r.github.io" class="link">julius-r.github.io</a>
+        </div>
+      </aside>
+
+      <main class="image-area">
+        <div class="controller">
+          <div class="view-content">
+            <ul>
+              <li><a href="#" id="all" class="link">All</a></li>
+              <li><a href="#" id="images" >Photos</a></li>
+              <li><a href="#" id="videos" class="link">Videos</a></li>
+            </ul>
+          </div>
+          <div class="view-sizes">
+            <ul>
+              <li><a href="#" id="multi" class="link"><i class="fa fa-th" aria-hidden="true"></i></a></li>
+              <li><a href="#" id="double"><i class="fa fa-th-large" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </main>
+
+      <aside class="side-area">
+        <div id="suggestions">
+          <p class="bold">Suggestions</p>
+          <ul class="recommend">
+            <li>
+              <img src="dist/imgs/image-1.png" alt="">
+              <div class="info">
+                <p class="link">Janet Smith</p>
+                <p class="locale">Sacramento, Ca</p>
+              </div>
+            </li>
+            <li>
+              <img src="dist/imgs/image-2.png" alt="">
+              <div class="info">
+                <p class="link">Kristi Watts</p>
+                <p class="locale">New York, NY</p>
+              </div>
+            </li>
+            <li>
+              <img src="dist/imgs/image-3.png" alt="">
+              <div class="info">
+                <p class="link">Ami Lee</p>
+                <p class="locale">Dallas, Tx</p>
+              </div>
+            </li>
+            <li>
+              <img src="dist/imgs/image-4.png" alt="">
+              <div class="info">
+                <p class="link">Noah Woods</p>
+                <p class="locale">Portland, Or</p>
+              </div>
+            </li>
+            <li>
+              <img src="dist/imgs/image-5.png" alt="">
+              <div class="info">
+                <p class="link">Darius Robins</p>
+                <p class="locale">Seattle, Wa</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div id="trending">
+          <p class="bold">Trending</p>
+        </div>
+      </aside>
+    </div>
+
+    <script src="dist/js/app.js"></script>
+</body>
+</html>
