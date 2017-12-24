@@ -7,3 +7,15 @@
 @import "_profile";
 @import "_imageArea";
 @import "_sideArea";
+
+@media screen and (max-width: 555px) {
+  .nav, .content {
+    font-size: .8rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav, .content {
+    font-size: .5rem;
+  }  
+}

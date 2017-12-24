@@ -1,8 +1,9 @@
 .image-area {
-  width: 60%;
+  width: 75%;
   padding: 20px;
 
   .controller {
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
 
@@ -14,10 +15,51 @@
       }
     }
     .view-sizes {
+      display: none;
       li {
         display: inline-block;
         padding: 0 5px;
         font-weight: 700;
+      }
+    }
+  }
+  #gallery {
+    overflow-y: scroll;
+    text-align: center;
+    max-height: 90%;
+    img {
+      margin: 5px;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .image-area {
+    width: 75%;
+
+    #gallery {
+      img {
+        width: 45%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 555px) {
+  .image-area {
+    width: 75%;
+    .controller {
+
+      .view-sizes {
+        display: block;
+      }
+    }
+    #gallery {
+      max-height: 700px;
+      img {
+        margin: 5px;
+        width: 30%;
       }
     }
   }

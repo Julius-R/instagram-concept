@@ -26,6 +26,13 @@ body {
   display: flex;
   align-content: stretch; }
 
+.dbl {
+  width: 45%; }
+
+.trpl {
+  margin: 5px;
+  width: 30%; }
+
 header {
   height: 70px;
   position: relative; }
@@ -52,6 +59,10 @@ header {
       margin: auto;
       font-size: .90em;
       outline: none; }
+
+@media screen and (max-width: 768px) {
+  .search-area {
+    display: none; } }
 
 .nav .nav-list {
   display: flex; }
@@ -107,20 +118,63 @@ header {
   .profile .bio {
     margin: 20px 0; }
 
+@media screen and (max-width: 768px) {
+  .profile {
+    width: 25%; }
+    .profile .user-info i {
+      display: none; } }
+
+@media screen and (max-width: 555px) {
+  .profile {
+    text-align: center;
+    padding: 0; }
+    .profile .about p {
+      padding-top: 20px;
+      text-align: center; }
+    .profile #follow {
+      height: 25px; } }
+
 .image-area {
-  width: 60%;
+  width: 75%;
   padding: 20px; }
   .image-area .controller {
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between; }
     .image-area .controller .view-content li {
       display: inline-block;
       padding: 0 5px;
       font-weight: 700; }
-    .image-area .controller .view-sizes li {
-      display: inline-block;
-      padding: 0 5px;
-      font-weight: 700; }
+    .image-area .controller .view-sizes {
+      display: none; }
+      .image-area .controller .view-sizes li {
+        display: inline-block;
+        padding: 0 5px;
+        font-weight: 700; }
+  .image-area #gallery {
+    overflow-y: scroll;
+    text-align: center;
+    max-height: 90%; }
+    .image-area #gallery img {
+      margin: 5px;
+      width: 100%; }
+
+@media screen and (min-width: 400px) {
+  .image-area {
+    width: 75%; }
+    .image-area #gallery img {
+      width: 45%; } }
+
+@media screen and (min-width: 555px) {
+  .image-area {
+    width: 75%; }
+    .image-area .controller .view-sizes {
+      display: block; }
+    .image-area #gallery {
+      max-height: 700px; }
+      .image-area #gallery img {
+        margin: 5px;
+        width: 30%; } }
 
 .side-area {
   background-color: #f4f4f4;
@@ -144,3 +198,15 @@ header {
       width: 45%;
       height: 50%;
       margin: 5px auto; }
+
+@media screen and (max-width: 768px) {
+  .side-area {
+    display: none; } }
+
+@media screen and (max-width: 555px) {
+  .nav, .content {
+    font-size: .8rem; } }
+
+@media screen and (max-width: 500px) {
+  .nav, .content {
+    font-size: .5rem; } }
